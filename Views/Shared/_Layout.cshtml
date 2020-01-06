@@ -58,9 +58,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#work">Portfolio</a>
           </li>
-          <!--<li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
-          </li>-->
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Resume</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
           </li>
@@ -353,7 +353,8 @@
           <div class="work-box">
             <a href="~/lib/bootstrap/dist/vid/vid1_portfolio.mov" data-lightbox="gallery-mf">
               <div class="work-img">
-                <video width="320" height="240" src="~/lib/bootstrap/dist/vid/vid1_portfolio.mov"></video>
+                <video width="320" height="240" controls>
+                  <source src="~/lib/bootstrap/dist/vid/vid1_portfolio.mov"></video>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -377,7 +378,8 @@
           <div class="work-box">
             <a href="~/lib/bootstrap/dist/vid/vid2-portfolio.mov" data-lightbox="gallery-mf">
               <div class="work-img">
-                <video width="320" height="240" src="~/lib/bootstrap/dist/vid/vid2-portfolio.mov"></video>
+                <video width="320" height="240" controls>
+                  <source src="~/lib/bootstrap/dist/vid/vid2-portfolio.mov"></video>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -399,14 +401,15 @@
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="<video width="320" height="240" src="~/lib/bootstrap/dist/vid/vid3_portfolio.mov"></video>
+            <a href="~/lib/bootstrap/dist/vid/vid3_portfolio.mov" data-lightbox="gallery-mf">
               <div class="work-img">
-                <video width="320" height="240" src="~/lib/bootstrap/dist/vid/vid3_portfolio.mov"></video>
+                <video width="320" height="240" controls>
+                  <source src="~/lib/bootstrap/dist/vid/vid3_portfolio.mov"></video>
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Concrete Company</h2>
+                    <h2 class="w-title">Cupcake ecommerce</h2>
                     <div class="w-more">
                       <!--<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>-->
                     </div>
@@ -546,22 +549,46 @@
   </div>
 
   <!--/ Section Blog Star /-->
-  <!--<section id="blog" class="blog-mf sect-pt4 route">
+  <section id="blog" class="blog-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
             <h3 class="title-a">
-              Blog
+              Resume
             </h3>
             <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Check out my resume to learn a little more about my background.
             </p>
             <div class="line-mf"></div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="col-md-4" style="margin:0px auto;">
+          <div class="work-box">
+            <a href="~/lib/bootstrap/dist/img/resume/resume.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="~/lib/bootstrap/dist/img/resume/resume.png" style="width:100%">
+              </div>
+              <!--<div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Cupcake ecommerce</h2>
+                    <div class="w-more">-->
+                      <!--<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>-->
+                    <!--</div>
+                  </div>-->
+                  <!--<div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>-->
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      <!-- <div class="row">
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
@@ -655,9 +682,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-  </section>-->
+  </section>
   <!--/ Section Blog End /-->
 
   <div class="container">
